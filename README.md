@@ -1,16 +1,16 @@
-# React Password Checklist
+# Password Checker
 
 A React Component to display the success or failure of password strength rules that updates as a user types.
 
 ## Example
 
-![React Password Checklist Demo](demo/demo.webm)
+![Password Checker Demo](demo/demo.png)
 
 ## Example Usage
 
 ```
 import React, {useState} from "react"
-import PasswordChecker from "react-password-checklist"
+import PasswordChecker from "password-checker"
 
 const SignUp = () => {
 	const [password, setPassword] = useState("")
@@ -38,7 +38,7 @@ const SignUp = () => {
 
 ```
 import React, {useState} from "react"
-import PasswordChecklist from "react-password-checklist"
+import PasswordChecklist from "password-checker"
 
 const SignUp = () => {
 	const [password, setPassword] = useState("")
